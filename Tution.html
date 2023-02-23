@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navbar1 d-flex justify-content-between align-items-center" style="background-color: orange;">
+        <div class="logo" style="margin-left: 300px; margin-top: 30px; margin-bottom: 30px;">
+            <img src="./logo_light.png" alt="" style="height: 50px;">
+        </div>
+        <nav style="margin-right: 300px; margin-top: 30px; margin-bottom: 30px;">
+            <a href="index.html" style="margin-left: 20px;">Home</a>
+            <a href="services.html" style="margin-left: 20px;">Service</a>
+            <a href="about.html" style="margin-left: 20px;">About Us</a>
+            <a href="team.html" style="margin-left: 20px;">Our Team</a>
+            <a href="gallery.html" style="margin-left: 20px;">Gallery</a>
+            <a href="Tution.html" style="margin-left: 20px;">Addmission</a>
+            <a href="Contact.html" style="margin-left: 20px;">Contact</a>
+        </nav>
+    </div>
+    <div class="services">
+        <div class="services1 text-center p-3">
+            <h3 style="font-size: x-large; font-weight: bolder; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Addmission Form</h3>
+        </div>
+    <!-- addmission -->
+    <div class="addmiss d-flex justify-content-center align-items-center">
+        <form style=" width: 800px;">
+           <div class="forms p-5">
+            <h5 style="margin-top: 15px; margin-bottom: 25px;">Information Of Child</h5>
+            <div class="name d-flex align-items-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="name">Name</label>
+                <input type="text" placeholder="firstname" style="margin-left: 100px; width: 400px;">
+                <input type="text" placeholder="lastname" style="margin-left: 100px; width: 400px;">
+            </div>
+            <div class="dob d-flex  align-items-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="Dob">DOB</label>
+                <input type="date" name="date" id="date" style="margin-left: 110px; width: 200px;">
+            </div>
+            <div class="address  align-items-center justify-content-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="add">Adddress</label>
+                <input type="text" placeholder="Enter Address" style="margin-left: 70px; width: 560px;">
+            </div>
+
+            <div class="gender d-flex align-items-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="gen">Gender</label>
+                <input type="radio" name="gen" id="male" value="Male" style="margin-left: 90px;">Male
+                <input type="radio" name="gen" id="female" value="Female" style="margin-left: 100px;">Female
+            </div>
+
+            <div class="Time" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="time">Hours of child care required (school hours are 7:00 am to 6:00 pm):
+                </label>
+                <input type="checkbox" name="time" id="1" style="margin-left: 20px;" >Full-Day
+                <input type="checkbox" name="time" id="2" style="margin-left: 20px;">Half-Day
+            </div>
+
+            <h5 style="margin-top: 5px; margin-bottom: 25px;">Information Of Parent</h5>
+            <div class="name d-flex align-items-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="name">Name</label>
+                <input type="text" placeholder="firstname" style="margin-left: 100px; width: 400px;">
+                <input type="text" placeholder="lastname" style="margin-left: 100px; width: 400px;">
+            </div>
+            <div class="dob d-flex  align-items-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="rel">Relation</label>
+                <input type="text" placeholder="Ex:Mother/Father" style="margin-left: 85px; width: 400px;">
+            </div>
+            <div class="address  align-items-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="add">Adddress</label>
+                <input type="text" placeholder="Enter Parents Address" style="margin-left: 70px; width: 560px;">
+            </div>
+
+            <div class="gender d-flex align-items-center" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="gen">Gender</label>
+                <input type="radio" name="gen" id="male" value="Male" style="margin-left: 90px;">Male
+                <input type="radio" name="gen" id="female" value="Female" style="margin-left: 100px;">Female
+            </div>
+
+            <div class="email" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="emai">E-mail</label>
+                <input type="email" name="email" id="mail" style="margin-left: 90px; width: 300px;" placeholder="Enter Your mail">
+            </div>
+
+            <div class="contact" style="margin-top: 5px; margin-bottom: 25px;">
+                <label for="cntct">Contact</label>
+                <input type="number" name="no" id="No" style="margin-left: 80px;">
+            </div>
+
+            <div class="accept" style="margin-top: 5px; margin-bottom: 25px;">
+                <input type="checkbox" name="ck" id="Ck">I Have Accept All Rules.
+            </div>
+
+            <div class="but d-flex justify-content-center align-items-center" style="margin-top: 25px; margin-bottom: 15px;">
+                <button style="Border:none; height: 40px; width: 250px; background-color: cornflowerblue;">Submit</button>
+            </div>
+
+           </div>
+        </form>
+    </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<div class="foot" style="background-color: black; color: white;">
+    <h4 class="text-center">Design By Pratiksha</h4>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

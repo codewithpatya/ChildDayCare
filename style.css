@@ -1,0 +1,62 @@
+.navbar1 nav a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+.navbar1{
+    height: 80px;
+}
+.home2 img{
+    height: 600px;
+}
+.home3{
+    margin-left: 450px;
+    margin-right: 300px;
+}
+.home{
+    position: relative;
+}
+.home3{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: 400px;
+}
+
+.services1 h1{
+    font-size: 100px;
+    font-style:italic;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.services{
+    background-color: rgba(169, 169, 169, 0.292);
+
+}
+.heads1 h5{
+    margin-top: 20px;
+}
+.d2{
+    margin-top :20px; ;
+}
+.d2 .card{
+    margin-bottom: 50px;
+}
+.gallery{
+    margin-top: 50px;
+}
+.team .crd{
+    margin-bottom: 50px;
+}
+.in1{
+    margin-bottom: 50px;
+}
+form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: burlywood;
+    border-radius: 15px;
+}
